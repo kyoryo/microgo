@@ -7,8 +7,8 @@ type GetRequest struct {
 }
 
 type GetResponse struct {
-	Document []internal.Document `json:"documents"`
-	Err      string              `json:"err,omitempty"`
+	Documents []internal.Document `json:"documents"`
+	Err       string              `json:"err,omitempty"`
 }
 
 type StatusRequest struct {
