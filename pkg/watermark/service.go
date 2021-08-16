@@ -3,7 +3,7 @@ package watermark
 import (
 	"context"
 
-	"microgo/internal"
+	"github.com/kyoryo/microgo/internal"
 )
 
 type Service interface {

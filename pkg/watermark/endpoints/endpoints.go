@@ -5,8 +5,8 @@ import (
 	"errors"
 	"os"
 
-	"microgo/internal"
-	"microgo/pkg/watermark"
+	"github.com/kyoryo/microgo/internal"
+	"github.com/kyoryo/microgo/pkg/watermark"
 
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/log"

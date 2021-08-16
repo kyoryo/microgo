@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"microgo/internal/util"
-	"microgo/pkg/watermark/endpoints"
+	"github.com/kyoryo/microgo/internal/util"
+	"github.com/kyoryo/microgo/pkg/watermark/endpoints"
 
 	"github.com/go-kit/kit/log"
 

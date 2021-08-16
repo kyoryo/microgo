@@ -1,6 +1,6 @@
 package endpoints
 
-import "microgo/internal"
+import "github.com/kyoryo/microgo/internal"
 
 type GetRequest struct {
 	Filters []internal.Filter `json:"filters,omitempty"`

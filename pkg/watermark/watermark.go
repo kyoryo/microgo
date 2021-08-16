@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"microgo/internal"
+	"github.com/kyoryo/microgo/internal"
 
 	"github.com/go-kit/kit/log"
 	"github.com/lithammer/shortuuid/v3"
